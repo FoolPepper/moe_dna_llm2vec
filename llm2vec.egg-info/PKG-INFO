@@ -1,3 +1,40 @@
+Metadata-Version: 2.4
+Name: llm2vec
+Version: 0.2.3
+Summary: The official llm2vec library
+Home-page: https://github.com/McGill-NLP/llm2vec
+Author: McGill NLP
+Author-email: parishad.behnamghader@mila.quebec
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: torch
+Requires-Dist: peft
+Requires-Dist: transformers<=4.44.2,>=4.43.1
+Requires-Dist: datasets
+Requires-Dist: evaluate
+Requires-Dist: scikit-learn
+Provides-Extra: evaluation
+Requires-Dist: mteb>=1.14.12; extra == "evaluation"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 
 # *LLM2Vec: Large Language Models Are Secretly Powerful Text Encoders* 
 
